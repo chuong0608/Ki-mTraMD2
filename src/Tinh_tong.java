@@ -13,24 +13,24 @@ public class Tinh_tong {
             arr[i] = scanner.nextInt();
             i++;
         }
-//        System.out.println();
-//        for (int j = 0; j < arr.length; j++) {
-//            if (arr[j] % 2 == 0) {
-//                tong += arr[j];
-//            }
-//        }
-//        System.out.println("tổng số chẵn " + tong);
-//
+        System.out.println();
+        for (int j = 0; j < arr.length; j++) {
+            if (arr[j] % 2 == 0) {
+                tong += arr[j];
+            }
+        }
+        System.out.println("tổng số chẵn " + tong);
+
         System.out.println("Nhập vào a: ");
         int a = scanner.nextInt();
-//        for (int k = 0; k < arr.length; k++) {
-//            if (a == arr[k]) {
-//                System.out.println("trong mảng có " + arr[k] + " ở vị trí " + k);
-//            }
-//        }
-        int [] b =new int[n-1];
-        for (int h=0;h<b.length;h++){
-            if(a==b[h]){
+        for (int k = 0; k < arr.length; k++) {
+            if (a == arr[k]) {
+                System.out.println("trong mảng có " + arr[k] + " ở vị trí " + k);
+            }
+        }
+        int []ar =new int[n-1];
+        for (int h=0;h<ar.length;h++){
+            if(a==ar[h]){
                 arr[h]=arr[h+1];
                 arr[arr.length-1]=0;
                 System.out.println(arr[h]);
